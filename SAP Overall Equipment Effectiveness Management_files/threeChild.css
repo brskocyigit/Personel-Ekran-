@@ -1,0 +1,688 @@
+
+.leftContent{
+    width: 75%;
+    height: 55%;
+    top:5%;
+    left:5%;
+    position:absolute;
+  display:flex;
+  }
+  .rightContent{
+    width:25%;
+    height:100%;
+    position:absolute;
+    top:5%;
+    left:75%;
+  }
+  .title3{
+    padding: 7%;
+    font-weight: bold;
+    color: white;
+  }
+  @media only screen and (min-width: 768px) {
+  
+    
+  .leftBarText2{
+    color: white;
+    width: 200px;
+  }
+  .rightBarTextEnd2{
+  color:white;
+    width:100px;
+  }
+    .barPosition11{
+        width: 160px;
+        height: 160px;
+        top:10%;
+        left:10%;
+        position:fixed;
+        animation: standartJumping 2s alternate infinite;
+  z-index:1;
+      }
+      .barPosition22{
+        width: 160px;
+        height: 160px;
+        left:35%;
+        top:25%;
+        position:fixed;
+        animation: standartJumping 2s alternate infinite;
+  z-index:1;
+      }
+      .barPosition333{
+        width: 160px;
+        height: 160px;
+        left:60%;
+        top:10%;
+        position: fixed;
+        animation: standartJumping 2s alternate infinite;
+  
+  z-index:1;
+      }
+      .tableImg11{
+        z-index: 0;
+        position: fixed;
+        top:11%;
+        left:2%;
+        width:230px;
+        height:230px;
+      }
+      .tableImg22{
+        position: fixed;
+        z-index: 0;
+        top:26%;
+        left:26%;
+        width:230px;
+        height:230px;
+      }
+      .tableImg33{
+        position: fixed;
+        z-index: 0;
+        left:51%;
+        top:11%;
+        width:230px;
+        height:230px;
+      }
+      .barPosition33{
+        width: 160px;
+        height: 160px;
+        position: relative;
+        top:10%;
+        left:15%;
+      }
+      .barPosition44{
+        width: 160px;
+        height: 160px;
+        position: relative;
+        top:15%;
+        left:15%;
+      }
+      
+      .barPosition55{
+        width: 160px;
+        height: 160px;
+        position: relative;
+        top:20%;
+        left:15%;
+      }
+      .footer{
+        position: absolute;
+        top:60%;
+        left:3%;
+        width: 75%;
+        height: 40%;
+        overflow: auto;
+        
+      }
+      .footerTable1{
+        background-image: linear-gradient(#353639, #777779);
+        padding:1%;
+        border-radius: 15px;
+        margin-right:1%;
+        height:230px;
+        width:270px;
+      }
+      .oneImg111{
+        position: fixed;
+        top:14%;
+        left:3%;
+      }
+      .twoImg222{
+        position: fixed;
+        top:28%;
+        left:27%;
+      }
+      .threeImg333{
+        position: fixed;
+        top:13%;
+        left:52%;
+      }
+  
+    }
+  @media only screen and (min-width: 1024px) {
+  
+  .leftBarText2{
+    color: white;
+    width: 230px;
+  }
+  .rightBarTextEnd2{
+    width:100px;
+  }
+      .barPosition11{
+          width: 160px;
+          height: 160px;
+          top:10%;
+          left:170px;
+          position:fixed;
+          animation: standartJumping 2s alternate infinite;
+  z-index:1;
+        }
+        .barPosition22{
+          width: 160px;
+          height: 160px;
+          left:37%;
+          top:25%;
+          position:fixed;
+          animation: standartJumping 2s alternate infinite;
+  z-index:1;
+        }
+        .barPosition333{
+          width: 160px;
+          height: 160px;
+          left:805px;
+          top:10%;
+          position: fixed;
+          animation: standartJumping 2s alternate infinite;
+  z-index:1;
+        }
+        .tableImg11{
+          z-index: 0;
+          position: fixed;
+          top:9%;
+          left:7%;
+        }
+        .tableImg22{
+          position: fixed;
+          z-index: 0;
+          top:24%;
+          left:398px;
+        }
+        .tableImg33{
+          position: fixed;
+          z-index: 0;
+          left:57%;
+          top:9%;
+        }
+        .barPosition33{
+          width: 160px;
+          height: 160px;
+          position: relative;
+          top:10%;
+          left:30%;
+        }
+        .barPosition44{
+          width: 160px;
+          height: 160px;
+          position: relative;
+          top:15%;
+          left:30%;
+        }
+        
+        .barPosition55{
+          width: 160px;
+          height: 160px;
+          position: relative;
+          top:20%;
+          left:30%;
+        }
+        .footer{
+          position: absolute;
+          top:60%;
+          left:5%;
+          width: 100%;
+          height: 40%;
+          
+          
+        }
+        .footerTable1{
+          background-image: linear-gradient(#353639, #777779);
+          padding:1%;
+          border-radius: 15px;
+          margin-right:3%;
+          height:230px;
+          width:280px;
+        }
+        .oneImg111{
+          position: fixed;
+          top:16%;
+          left:8%;
+        }
+        .twoImg222{
+          position: fixed;
+          top:30%;
+          left:32%;
+        }
+        .threeImg333{
+          position: fixed;
+          top:15%;
+          left:58%;
+        }
+  }
+  @media only screen and (min-width: 1280px) {
+  
+   .leftBarText2{
+    color: white;
+    width: 230px;
+  }
+  .rightBarTextEnd2{
+    width:100px;
+  }
+      .barPosition11{
+          width: 160px;
+          height: 160px;
+          top:10%;
+          left:155px;
+          position:fixed;
+          animation: standartJumping 2s alternate infinite;
+  z-index:1;
+        }
+        .barPosition22{
+          width: 160px;
+          height: 160px;
+          left:465px;
+          top:25%;
+          position:fixed;
+          animation: standartJumping 2s alternate infinite;
+  z-index:1;
+        }
+        .barPosition333{
+          width: 160px;
+          height: 160px;
+          left:795px;
+          top:10%;
+          position: fixed;
+          animation: standartJumping 2s alternate infinite;
+  z-index:1;
+        }
+        .tableImg11{
+          z-index: 0;
+          position: fixed;
+          top:9%;
+          left:7%;
+        }
+        .tableImg22{
+          position: fixed;
+          z-index: 0;
+          top:24%;
+          left:398px;
+        }
+        .tableImg33{
+          position: fixed;
+          z-index: 0;
+          left:57%;
+          top:9%;
+        }
+        .barPosition33{
+          width: 160px;
+          height: 160px;
+          position: relative;
+          top:10%;
+          left:30%;
+        }
+        .barPosition44{
+          width: 160px;
+          height: 160px;
+          position: relative;
+          top:15%;
+          left:30%;
+        }
+        
+        .barPosition55{
+          width: 160px;
+          height: 160px;
+          position: relative;
+          top:20%;
+          left:30%;
+        }
+        .footer{
+          position: absolute;
+          top:60%;
+          left:5%;
+          width: 100%;
+          height: 40%;
+          
+          
+        }
+        .footerTable1{
+          background-image: linear-gradient(#353639, #777779);
+          padding:1%;
+          border-radius: 15px;
+          margin-right:3%;
+          height:230px;
+          width:280px;
+        }
+        .oneImg111{
+          position: fixed;
+          top:16%;
+          left:8%;
+        }
+        .twoImg222{
+          position: fixed;
+          top:30%;
+          left:32%;
+        }
+        .threeImg333{
+          position: fixed;
+          top:15%;
+          left:58%;
+        }
+    }
+  @media only screen and (min-width: 1366px) {
+  
+   .leftBarText2{
+    color: white;
+    width: 200px;
+  }
+  .rightBarTextEnd2{
+    width:100px;
+  }
+      .barPosition11{
+          width: 160px;
+          height: 160px;
+          top:10%;
+          left:160px;
+          position:fixed;
+          animation: standartJumping 2s alternate infinite;
+  z-index:1;
+        }
+        .barPosition22{
+          width: 160px;
+          height: 160px;
+          left:490px;
+          top:25%;
+          position:fixed;
+          animation: standartJumping 2s alternate infinite;
+  z-index:1;
+        }
+        .barPosition333{
+          width: 160px;
+          height: 160px;
+          left:845px;
+          top:10%;
+          position: fixed;
+          animation: standartJumping 2s alternate infinite;
+  z-index:1;
+        }
+        .tableImg11{
+          z-index: 0;
+          position: fixed;
+          top:9%;
+          left:7%;
+        }
+        .tableImg22{
+          position: fixed;
+          z-index: 0;
+          top:24%;
+          left:425px;
+        }
+        .tableImg33{
+          position: fixed;
+          z-index: 0;
+          left:57%;
+          top:9%;
+        }
+        .barPosition33{
+          width: 160px;
+          height: 160px;
+          position: relative;
+          top:10%;
+          left:30%;
+        }
+        .barPosition44{
+          width: 160px;
+          height: 160px;
+          position: relative;
+          top:15%;
+          left:30%;
+        }
+        
+        .barPosition55{
+          width: 160px;
+          height: 160px;
+          position: relative;
+          top:20%;
+          left:30%;
+        }
+        .footer{
+          position: absolute;
+          top:60%;
+          left:5%;
+          width: 100%;
+          height: 40%;
+          
+          
+        }
+        .footerTable1{
+          background-image: linear-gradient(#353639, #777779);
+          padding:1%;
+          border-radius: 15px;
+          margin-right:5%;
+          height:230px;
+          width:280px;
+        }
+        .oneImg111{
+          position: fixed;
+          top:16%;
+          left:8%;
+        }
+        .twoImg222{
+          position: fixed;
+          top:30%;
+          left:32%;
+        }
+        .threeImg333{
+          position: fixed;
+          top:15%;
+          left:58%;
+        }
+    }
+   @media only screen and (min-width: 1500px) {
+  
+   .leftBarText2{
+    color: white;
+    width: 200px;
+  }
+  .rightBarTextEnd2{
+    width:100px;
+  }
+      .barPosition11{
+          width: 160px;
+          height: 160px;
+          top:10%;
+          left:160px;
+          position:fixed;
+          animation: standartJumping 2s alternate infinite;
+  z-index:1;
+        }
+        .barPosition22{
+          width: 160px;
+          height: 160px;
+          left:522px;
+          top:25%;
+          position:fixed;
+          animation: standartJumping 2s alternate infinite;
+  z-index:1;
+        }
+        .barPosition333{
+          width: 160px;
+          height: 160px;
+          left:885px;
+          top:10%;
+          position: fixed;
+          animation: standartJumping 2s alternate infinite;
+  z-index:1;
+        }
+        .tableImg11{
+          z-index: 0;
+          position: fixed;
+          top:9%;
+          left:6%;
+        }
+        .tableImg22{
+          position: fixed;
+          z-index: 0;
+          top:24%;
+          left:455px;
+        }
+        .tableImg33{
+          position: fixed;
+          z-index: 0;
+          left:820px;
+          top:9%;
+        }
+        .barPosition33{
+          width: 160px;
+          height: 160px;
+          position: relative;
+          top:10%;
+          left:30%;
+  
+        }
+        .barPosition44{
+          width: 160px;
+          height: 160px;
+          position: relative;
+          top:15%;
+          left:30%;
+        }
+        
+        .barPosition55{
+          width: 160px;
+          height: 160px;
+          position: relative;
+          top:20%;
+          left:30%;
+        }
+        .footer{
+          position: absolute;
+          top:60%;
+          left:5%;
+          width: 100%;
+          height: 40%;
+          
+          
+        }
+        .footerTable1{
+          background-image: linear-gradient(#353639, #777779);
+          padding:1%;
+          border-radius: 15px;
+          margin-right:5%;
+          height:230px;
+          width:280px;
+        }
+        .oneImg111{
+          position: fixed;
+          top:16%;
+          left:7%;
+        }
+        .twoImg222{
+          position: fixed;
+          top:30%;
+          left:30%;
+        }
+        .threeImg333{
+          position: fixed;
+          top:15%;
+          left:54%;
+        }
+  
+      }
+    @media only screen and (min-width: 1920px) {
+  
+  .leftBarText2{
+    color: white;
+    width: 200px;
+  }
+  .rightBarTextEnd2{
+    width:100px;
+  }
+      .barPosition11{
+          width: 160px;
+          height: 160px;
+          top:9%;
+          left:390px;
+          position:fixed;
+          animation: standartJumping 2s alternate infinite;
+  z-index:1;
+        }
+        .barPosition22{
+          width: 160px;
+          height: 160px;
+          left:775px;
+          top:25%;
+          position:fixed;
+          animation: standartJumping 2s alternate infinite;
+  z-index:1;
+        }
+        .barPosition333{
+          width: 160px;
+          height: 160px;
+          left:1180px;
+          top:10%;
+          position: fixed;
+          animation: standartJumping 2s alternate infinite;
+  z-index:1;
+        }
+        .tableImg11{
+          z-index: 0;
+          position: fixed;
+          top:9%;
+          left:17%;
+        }
+        .tableImg22{
+          position: fixed;
+          z-index: 0;
+          top:24%;
+          left:37%;
+        }
+        .tableImg33{
+          position: fixed;
+          z-index: 0;
+          left:58%;
+          top:9%;
+        }
+        .barPosition33{
+          width: 160px;
+          height: 160px;
+          position: relative;
+          top:10%;
+          left:30%;
+        }
+        .barPosition44{
+          width: 160px;
+          height: 160px;
+          position: relative;
+          top:15%;
+          left:30%;
+        }
+        
+        .barPosition55{
+          width: 160px;
+          height: 160px;
+          position: relative;
+          top:20%;
+          left:30%;
+        }
+        .footer{
+          position: absolute;
+          top:60%;
+          left:14%;
+          width: 70%;
+          height: 40%;
+          overflow: auto;
+          
+        }
+        .footerTable1{
+          background-image: linear-gradient(#353639, #777779);
+          padding:1%;
+          border-radius: 15px;
+          margin-right:8%;
+          height:280px;
+          width:300px;
+        }
+        .oneImg111{
+          position: fixed;
+          top:12%;
+          left:18%;
+        }
+        .twoImg222{
+          position: fixed;
+          top:27%;
+          left:38%;
+        }
+        .threeImg333{
+          position: fixed;
+          top:12%;
+          left:59%;
+        }
+  
+      }

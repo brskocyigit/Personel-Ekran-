@@ -1,0 +1,198 @@
+img[id$="gear1"] {
+    width: 80px;
+    height: 80px;
+    left: 151px;
+top:30px;
+  position: absolute;
+  animation: rotation-reverse 1.5s infinite linear;
+}
+img[id$="gear2"] {
+    width: 120px;
+    height: 120px;
+    left: 219px;
+    top:30px;
+  position: absolute;
+  animation: rotation 1.5s infinite linear;
+}
+img[id$="gear3"] {
+width: 130px;
+    height: 130px;
+    left: 34px;
+    top: 30px;
+  position: absolute;
+  animation: rotation 1.5s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@keyframes rotation-reverse {
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+img[id$="gear1stop"] {
+    width: 80px;
+    height: 80px;
+    left: 151px;
+top:30px;
+  position: absolute;
+}
+img[id$="gear2stop"] {
+    width: 120px;
+    height: 120px;
+    left: 219px;
+    top:30px;
+  position: absolute;
+}
+img[id$="gear3stop"] {
+width: 130px;
+    height: 130px;
+    left: 34px;
+    top: 30px;
+  position: absolute;
+}
+
+.oeeComponent .navBackArrow {
+    padding: 0 !important;
+    position: relative;
+    left:-3px;
+        top: 0;
+        background: #d0e1ef;
+    border: 0 !important;
+        height: 100%;
+        width: 35px;
+    border-radius: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    margin-right: 10px;
+    }
+
+.sapMListTbl .sapUiIcon:not(.sapMLIBImgNav):not(.sapMBtnIcon) {
+    font-size: 2rem;
+}
+
+div[id$="idTimeline"]{
+max-width: 100%;
+}
+
+header.sapMPopoverHeader{
+visibility:hidden;
+height:0;
+}
+
+button[id$="replyButton"] {
+visibility:hidden;
+}
+
+div[id$="replyInputArea"]
+{
+visibility:hidden;
+height:0;
+}
+div[id$="replyPop-cont"]
+{
+width: 30rem !important;
+}
+a[id$="replyLink"]{
+  text-indent: -9999px;
+  line-height: 0;
+}
+a[id$="replyLink"]:after {
+  content : 'IFA Değerleri ';
+  text-indent: 0;
+  display: block;
+  line-height: initial;
+}
+div[id$="replyPop-cont"]
+{
+height:300px!important;
+}
+html.sap-desktop .sapMPopoverWithFooter>.sapMPopoverArrDown:after
+{
+visibility:hidden;
+height:0;
+}
+
+
+.sapMOHTitleArrow .sapUiIcon {
+    margin-top: 1px;
+    vertical-align: top;
+    display: inline-block;
+    padding: 0.4rem 0.5rem 0.4rem 0.5rem;
+    visibility: hidden;
+}
+span[id$="mdfText"]
+{
+    font-weight: bold;
+	
+}
+span[id$="shiftTeamText"]
+{
+    font-weight: bold;
+	
+}
+span[id$="registerEntryText"]
+{
+    font-weight: bold;
+	
+}
+span[id$="formalDehydeText"]
+{
+    font-weight: bold;
+	
+}
+span[id$="presShiftText"]
+{
+    font-weight: bold;
+	
+}
+.bold{
+    font-weight: bold;
+}
+
+div[id$="OrderNoSuccessText"]
+{
+    font-weight: bold;
+	    font-size: 1.7rem;
+    font-family: system-ui;
+    background-color: green;
+    color:  white !important;
+}
+div[id$="OrderNoErrorText"]
+{
+    font-weight: bold;
+	    font-size: 1.7rem;
+    font-family: system-ui;
+    background-color: red;
+    color:  white !important;
+}
+span[id$="OrderNoErrorText"]
+{
+    font-weight: bold;
+	    font-size: 1.7rem;
+    font-family: system-ui;
+    background-color: red;
+    color:  white !important;
+}
+span[id$="OrderNoSuccessText"]
+{
+    font-weight: bold;
+	    font-size: 1.7rem;
+    font-family: system-ui;
+    background-color: green;
+    color:  white !important;
+}
+
+

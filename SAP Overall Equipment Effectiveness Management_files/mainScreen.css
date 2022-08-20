@@ -1,0 +1,322 @@
+.linkCss{
+color:black;
+font-weight:bold;
+margin-bottom:1%;
+}
+.backgroundCss{
+  
+    width: 100%;
+
+    
+
+}
+  .leftContainer{
+        width: 60%;
+	margin-left:10%;
+height:100%;
+        position: relative;
+     background: url("/XMII/CM/MES/WebContent/image/isometrik.png") no-repeat;
+    background-size:contain;
+
+
+
+      }
+  .gifZimpara{
+      position: fixed;
+        width:12%;
+	top:11%;
+	left:15%;
+        height:auto;
+        
+    }
+
+ .gifMdf{
+        position:fixed;
+	top:2%;
+	left:30%;
+        width:12%;
+        height:auto;
+cursor:pointer;
+
+    }
+  
+   
+    .gifCipsSahasi{
+        position:fixed;
+	top:6%;
+	left:46%;
+        width:14%;
+        height:auto;   
+cursor:pointer;
+    }
+    .gifTutkal{
+       position:fixed;
+	top:23%;
+	left:54%;
+        width:10%;
+        height:auto;
+
+    }
+
+    .gifEmprenye{
+        position:fixed;
+	top:49%;
+	left:50%;
+        width:16%;
+        height:auto;
+cursor:pointer;
+   
+    }
+    .gifMelamin{
+        position:fixed;
+	top:70%;
+	left:49%;
+        width:11%;
+        height:auto; 
+    }
+    .gifPanel{
+      position: fixed;
+        width:14%;
+        height:auto;
+	top:65%;
+	left:30%;
+    }
+    .gifProfil{
+        position:fixed;
+	top:61%;
+	left:16%;
+        width:12%;
+        height:auto   
+    }
+    .gifParke{
+        position: fixed;
+top:35%;
+	left:15%;
+        width:14%;
+        height:auto;
+    }
+
+        .buttonCss1{
+        width:55px;
+        height:30px;
+        cursor: pointer;
+        border-radius: 30px;
+        margin-right: 5px;
+        color:black;
+        font-weight: bold;
+        font-size: 10px;
+margin-bottom:3px;
+	border:none;
+    }
+@media only screen and (min-width: 3500px) {
+ 
+ .rightContainer{
+        background-color: white;
+        width: 25%;
+        height:90%;
+        position: fixed;
+        left:75%;
+        border-top-left-radius:40px;
+        border-bottom-left-radius: 40px;
+        top:5%;
+       
+ filter:drop-shadow(0 0px 10px #353639);
+
+padding:1%;
+    }
+    .rightContainerCss{
+        padding:5%;
+        overflow: auto;
+    }
+
+
+}
+@media only screen and (min-width: 768px) and (max-width:800px) {
+
+.backgroundCss{
+  
+
+    background: url("/XMII/CM/MES/WebContent/image/2560x1140.png") repeat;
+    background-size:contain;
+
+}
+    
+  
+    .titleBig{
+        font-weight: bold;
+        color:black;
+        padding-bottom: 5%;
+        font-size: 30px;
+      }
+    .titleDep{
+        font-weight: bold;
+        font-size: 15px;
+        padding-bottom: 3%;
+    }
+
+      .rightContainer{
+        background-color: white;
+        width: 25%;
+        height:90%;
+        position: fixed;
+        left:75%;
+        border-top-left-radius:40px;
+        border-bottom-left-radius: 40px;
+        top:5%;
+       
+ filter:drop-shadow(0 0px 10px #353639);
+
+padding:1%;
+    }
+    .rightContainerCss{
+        padding:5%;
+        overflow: auto;
+    }
+
+
+}
+@media only screen and (min-width: 1024px) {
+
+    
+  
+    .titleBig{
+        font-weight: bold;
+        color:black;
+        padding-bottom: 5%;
+        font-size: 30px;
+      }
+    .titleDep{
+        font-weight: bold;
+        font-size: 15px;
+        padding-bottom: 3%;
+    }
+
+      .rightContainer{
+        background-color: white;
+        width: 20%;
+        height:90%;
+        position: fixed;
+        left:80%;
+        border-top-left-radius:40px;
+        border-bottom-left-radius: 40px;
+        top:5%;
+       
+ filter:drop-shadow(0 0px 10px #353639);
+
+padding:1%;
+    }
+    .rightContainerCss{
+        padding:5%;
+        overflow: auto;
+    }
+ 
+
+}
+@media only screen and (min-width: 1280px) {
+    
+
+   
+    .titleBig{
+        font-weight: bold;
+        color:black;
+        padding-bottom: 5%;
+        font-size: 30px;
+      }
+    .titleDep{
+        font-weight: bold;
+        font-size: 15px;
+        padding-bottom: 3%;
+    }
+
+      .rightContainer{
+        background-color: white;
+        width: 20%;
+        height:90%;
+        position: fixed;
+        left:80%;
+        border-top-left-radius:40px;
+        border-bottom-left-radius: 40px;
+        top:5%;
+       
+ filter:drop-shadow(0 0px 10px #353639);
+
+padding:1%;
+    }
+    .rightContainerCss{
+        padding:5%;
+        overflow: auto;
+    }
+
+}
+@media only screen and (min-width: 1366px) {
+
+   
+    .titleBig{
+        font-weight: bold;
+        color:black;
+        padding-bottom: 5%;
+        font-size: 30px;
+      }
+    .titleDep{
+        font-weight: bold;
+        font-size: 15px;
+        padding-bottom: 3%;
+    }
+
+      .rightContainer{
+        background-color: white;
+        width: 20%;
+        height:90%;
+        position: fixed;
+        left:80%;
+        border-top-left-radius:40px;
+        border-bottom-left-radius: 40px;
+        top:5%;
+       
+ filter:drop-shadow(0 0px 10px #353639);
+
+padding:1%;
+    }
+    .rightContainerCss{
+       
+        overflow: auto;
+    }
+ 
+}
+@media only screen and (min-width: 1920px) {
+
+
+    
+ 
+    .titleBig{
+        font-weight: bold;
+        color:black;
+        padding-bottom: 5%;
+        font-size: 30px;
+      }
+    .titleDep{
+        font-weight: bold;
+        font-size: 15px;
+        padding-bottom: 3%;
+    }
+
+       .rightContainer{
+        background-color: white;
+        width: 23%;
+        height:90%;
+        position: fixed;
+        left:77%;
+        border-top-left-radius:40px;
+        border-bottom-left-radius: 40px;
+        top:5%;
+       
+ filter:drop-shadow(0 0px 10px #353639);
+
+padding:1%;
+    }
+    .rightContainerCss{
+
+        overflow: auto;
+    }
+
+}

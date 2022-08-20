@@ -1,0 +1,138 @@
+.oeeComponent .sapMText {
+font-size: 0.9rem !important;
+}
+
+.outer{
+    position:absolute;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    padding:20px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7);
+  }
+.linkCssWhite{
+color:white;
+font-weight:bold;
+margin-bottom:1%;
+}
+
+  .inner{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+  }
+  .outer2{
+    position:absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding:10px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7);
+  }
+  .inner2{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+  }
+  .circleBig{
+    fill:none;
+    stroke-width: 20px;
+    stroke-dasharray: 439.8;
+    stroke-dashoffset: 439.8;
+  }
+  
+  .circleMini{
+    fill:none;
+    stroke-width: 10px;
+    stroke-dasharray: 282;
+    stroke-dashoffset: 282;
+  }
+  .circleImg{
+    position: absolute;
+    top:65%;
+    right:100px;
+    z-index: 1;
+    }
+    .oeeComponent.sapMText.barText{
+        font-weight: 500;
+        color: #00AA00;
+        font-size: 1.7rem !important;
+	font-weight: bold;
+	z-index: 1;
+        
+      }
+    .barText2{
+    font-weight: bold;
+    font-size: 12px;
+    }
+    .barText3{
+    font-weight: bold;
+    color: #16d342;
+    font-size: 20px;
+    }
+.barText4{
+    font-weight: bold;
+   }
+
+    .textDesign{
+      overflow:hidden; 
+  white-space:nowrap; 
+  text-overflow:ellipsis; 
+    }
+.leftBarText{
+  color: white;
+  width: 200px;
+}
+    .title{
+        padding: 10%;
+        font-weight: bold;
+        color: white;
+    }
+  @keyframes anim{
+  
+    100%{
+      stroke-dashoffset: 154;
+    }
+  }
+  @keyframes standartJumping{
+    0%{
+      transform:translateY(0px);
+    }
+    50%{
+      transform:translateY(-30px);
+    }
+    100%{
+      transform:translateY(0px);
+    }
+  }
+  @keyframes blink{
+    0% {
+      filter:drop-shadow(0 20px 30px #e8a2ad);
+  
+    }
+    50% {
+      filter:drop-shadow(0 2px 10px #e8a2ad);
+    }
+    100% {
+      filter:drop-shadow(0 20px 30px #e8a2ad);
+      
+    }
+  }

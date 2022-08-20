@@ -1,0 +1,390 @@
+@media only screen and (min-width: 765px) {
+.tableImg{
+      position: fixed;
+      top:14%;
+      left:130px;
+      z-index: -1;
+      width:320px;
+      height:320px;
+  }
+  .skill{
+    width: 160px;
+    height: 160px;
+    position: fixed;
+    left:27%;
+    top:12%;
+    animation: standartJumping 2s alternate infinite;
+    
+  }
+  .skill1{
+    width: 160px;
+    height: 160px;
+    position: fixed;
+    top:60%;
+    left:12%;
+  }
+  .skill2{
+    width: 160px;
+    height: 160px;
+    position: fixed;
+    top:60%;
+    left:38%;
+  }
+  .circleImgBig{
+    position: fixed;
+    top:170px;
+    left:70px;
+    z-index: 1;
+    }
+  
+  .rightBar{
+    width: 30%;
+    height: 80%;
+    background-image: linear-gradient(#353639, #777779);
+    position: absolute;
+    left:68%;
+    top: 10%;
+    border-radius: 20px;
+    padding-top:2%;
+    padding-left:1%;
+    padding-right:1%;
+  }
+  .rightBarText11{
+    color:#EAEAEA;
+    width:180px;
+   margin-bottom:5px;
+   margin-top:5px;
+  }
+.rightBarTextEnd5{
+   color:#EAEAEA;
+    width:100px;
+   margin-bottom:5px;
+   margin-top:5px;
+}
+  .footerDetail{
+    position: absolute;
+    width: 70%;
+    height: 30%;
+    top:50%;
+    left:0%;
+  
+  }
+  .oneImg1{
+    position: fixed;
+    top:11%;
+    left:10%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .tableImg{
+      position: fixed;
+      top:14%;
+      left:225px;
+      z-index: -1;
+      width:320px;
+      height:320px;
+  }
+  .skill{
+    width: 160px;
+    height: 160px;
+    position: fixed;
+    left:30%;
+    top:12%;
+    animation: standartJumping 2s alternate infinite;
+    
+  }
+  .skill1{
+    width: 160px;
+    height: 160px;
+    position: fixed;
+    top:60%;
+    left:18%;
+  }
+  .skill2{
+    width: 160px;
+    height: 160px;
+    position: fixed;
+    top:60%;
+    left:41%;
+  }
+  .circleImgBig{
+    position: fixed;
+    top:170px;
+    left:70px;
+    z-index: 1;
+    }
+  
+  .rightBar{
+    width: 25%;
+    height: 80%;
+    background-image: linear-gradient(#353639, #777779);
+    position: absolute;
+    left:72%;
+    top: 10%;
+    border-radius: 20px;
+    padding-top:2%;
+    padding-left:1%;
+    padding-right:1%;
+  }
+  .rightBarText11{
+    color:#EAEAEA;
+    width:200px;
+   margin-bottom:5px;
+   margin-top:5px;
+  }
+.rightBarTextEnd5{
+   color:#EAEAEA;
+    width:100px;
+   margin-bottom:5px;
+   margin-top:5px;
+}
+  .footerDetail{
+    position: absolute;
+    width: 70%;
+    height: 30%;
+    top:50%;
+    left:0%;
+  
+  }
+  .oneImg1{
+    position: fixed;
+    top:11%;
+    left:18%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+ .tableImg{
+      position: fixed;
+      top:14%;
+      left:29%;
+      z-index: -1;
+      width:320px;
+      height:320px;
+  }
+  .skill{
+    width: 160px;
+    height: 160px;
+    position: fixed;
+    left:35%;
+    top:12%;
+    animation: standartJumping 2s alternate infinite;
+    
+  }
+  .skill1{
+    width: 160px;
+    height: 160px;
+    position: fixed;
+    top:60%;
+    left:27%;
+  }
+  .skill2{
+    width: 160px;
+    height: 160px;
+    position: fixed;
+    top:60%;
+    left:41%;
+  }
+  .circleImgBig{
+    position: fixed;
+    top:170px;
+    left:70px;
+    z-index: 1;
+    }
+  
+  .rightBar{
+    width: 18%;
+    height: 80%;
+    background-image: linear-gradient(#353639, #777779);
+    position: absolute;
+    left:80%;
+    top: 10%;
+    border-radius: 20px;
+    padding-top:2%;
+    padding-left:1%;
+    padding-right:1%;
+  }
+  .rightBarText11{
+    color:#EAEAEA;
+    width:170px;
+   margin-bottom:5px;
+   margin-top:5px;
+  }
+.rightBarTextEnd5{
+   color:#EAEAEA;
+    width:100px;
+   margin-bottom:5px;
+   margin-top:5px;
+}
+  .footerDetail{
+    position: absolute;
+    width: 70%;
+    height: 30%;
+    top:50%;
+    left:0%;
+  
+  }
+  .oneImg1{
+    position: fixed;
+    top:11%;
+    left:26%;
+  }
+}
+@media only screen and (min-width: 1365px) {
+   .tableImg{
+      position: fixed;
+      top:14%;
+      left:29%;
+      z-index: -1;
+      width:320px;
+      height:320px;
+  }
+  .skill{
+    width: 160px;
+    height: 160px;
+    position: fixed;
+    left:35%;
+    top:12%;
+    animation: standartJumping 2s alternate infinite;
+    
+  }
+  .skill1{
+    width: 160px;
+    height: 160px;
+    position: fixed;
+    top:60%;
+    left:27%;
+  }
+  .skill2{
+    width: 160px;
+    height: 160px;
+    position: fixed;
+    top:60%;
+    left:41%;
+  }
+  .circleImgBig{
+    position: fixed;
+    top:170px;
+    left:70px;
+    z-index: 1;
+    }
+  
+  .rightBar{
+    width: 18%;
+    height: 80%;
+    background-image: linear-gradient(#353639, #777779);
+    position: absolute;
+    left:80%;
+    top: 10%;
+    border-radius: 20px;
+    padding-top:2%;
+    padding-left:1%;
+    padding-right:1%;
+  }
+  .rightBarText11{
+    color:#EAEAEA;
+    width:190px;
+   margin-bottom:5px;
+   margin-top:5px;
+  }
+.rightBarTextEnd5{
+   color:#EAEAEA;
+    width:100px;
+   margin-bottom:5px;
+   margin-top:5px;
+}
+  .footerDetail{
+    position: absolute;
+    width: 70%;
+    height: 30%;
+    top:50%;
+    left:0%;
+  
+  }
+  .oneImg1{
+    position: fixed;
+    top:11%;
+    left:26%;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  
+  
+  .tableImg{
+      position: fixed;
+      top:19%;
+      left:29%;
+      z-index: -1;
+      width:400px;
+      height:400px;
+  }
+  .skill{
+    width: 160px;
+    height: 160px;
+    position: fixed;
+    left:35%;
+    top:18%;
+    animation: standartJumping 2s alternate infinite;
+    
+  }
+  .skill1{
+    width: 160px;
+    height: 160px;
+    position: fixed;
+    top:55%;
+    left:27%;
+  }
+  .skill2{
+    width: 160px;
+    height: 160px;
+    position: fixed;
+    top:55%;
+    left:41%;
+  }
+  .circleImgBig{
+    position: fixed;
+    top:170px;
+    left:70px;
+    z-index: 1;
+    }
+  
+  .rightBar{
+    width: 18%;
+    height: 80%;
+    background-image: linear-gradient(#353639, #777779);
+    position: absolute;
+    left:75%;
+    top: 10%;
+    border-radius: 20px;
+    padding-top:2%;
+    padding-left:1%;
+    padding-right:1%;
+  }
+  .rightBarText11{
+    color:#EAEAEA;
+    width:280px;
+   margin-bottom:5px;
+   margin-top:5px;
+  }
+
+.rightBarTextEnd5{
+   color:#EAEAEA;
+    width:100px;
+   margin-bottom:5px;
+   margin-top:5px;
+}
+  .footerDetail{
+    position: absolute;
+    width: 70%;
+    height: 30%;
+    top:50%;
+    left:0%;
+  
+  }
+  .oneImg1{
+    position: fixed;
+    top:18%;
+    left:28%;
+  }
+  }
